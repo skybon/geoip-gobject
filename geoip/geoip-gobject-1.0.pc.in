@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: geoip-gobject
+Description: GObject wrapper for MaxMind's GeoIP C API
+Version: @VERSION@
+Libs: -L${libdir} -lgeoip-gobject-1.0
+Cflags: -I${includedir}/geoip-gobject-1.0
